@@ -1,0 +1,49 @@
+*{
+	border:none;
+	outline:none;
+	margin:0;
+	padding:0;
+	background:snow;
+}
+
+* a{
+	text-decoration: none;
+	color:red;
+}
+
+img{
+	width:100%;
+	border:3px solid gray;
+}
+
+.neighborhoodnavbar a{
+	display:list-item;
+	outline:1px solid black;
+	margin:5px;
+	padding:0 2px;
+	text-decoration: none;
+	color:black;
+	font-size: 25px
+}
+
+.neighborhoodnavbar a:hover{
+	background-color:firebrick;
+	font-weight: bolder;
+}
+
+li{
+	font-size: 18px;
+	font-weight:bold;
+	margin:10px;
+	outline:2px ridge black;
+	padding:3px;
+}
+
+li:hover{
+	background-color: dimgrey;
+}
+
+p{
+	text-indent: 20px;
+	margin:10px;
+}
