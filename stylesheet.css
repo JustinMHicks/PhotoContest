@@ -47,3 +47,17 @@ p{
 	text-indent: 20px;
 	margin:10px;
 }
+
+.scrollup {
+	font-size: 15px;
+    padding:10px;
+    width: 130px;
+    height: 20px;
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    display:none;
+    color:white;
+    background: url('icon-top.png') no-repeat;
+    background-color: #000;
+}
