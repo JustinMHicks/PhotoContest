@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 560) {
+        if ($(this).scrollTop() > 700) {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
@@ -10,8 +10,8 @@ $(document).ready(function () {
 
     $('.scrollup').click(function () {
         $("html, body").animate({
-            scrollTop: 0
-        }, 560);
+            scrollTop: 400
+        }, 700);
         return false;
     });
 

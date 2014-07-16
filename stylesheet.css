@@ -31,7 +31,7 @@ img{
 	font-weight: bolder;
 }
 
-li{
+ul li{
 	font-size: 18px;
 	font-weight:bold;
 	margin:10px;
@@ -39,7 +39,7 @@ li{
 	padding:3px;
 }
 
-li:hover{
+ul li:hover{
 	background-color: dimgrey;
 }
 
